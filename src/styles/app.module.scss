@@ -1,0 +1,11 @@
+.wrapper {
+  display: flex;
+  @media only screen and(max-width:768px) {
+    width: fit-content;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  main {
+    flex: 1;
+  }
+}
