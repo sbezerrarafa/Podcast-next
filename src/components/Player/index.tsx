@@ -4,7 +4,7 @@ export function Player() {
   return (
     <div className={styles.playerContainer}>
       <header>
-        <img src="/playing.svg" alt="" />
+        <img src="/playing.svg" alt="tocando agora" />
         <strong>Tocando agora</strong>
       </header>
       <div className={styles.emptyPlayer}>
@@ -13,8 +13,9 @@ export function Player() {
       <footer className={styles.empty}>
         <div className={styles.progress}>
           <span>00:00</span>
-          <div className={styles.slider}></div>
-          <div className={styles.emptySlider} />
+          <div className={styles.slider}>
+            <div className={styles.emptySlider} />
+          </div>
           <span>00:00</span>
         </div>
         <div className={styles.buttons}>
