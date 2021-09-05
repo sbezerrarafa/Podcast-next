@@ -16,6 +16,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
 
+
     li {
       background: var(--white);
       border: 1px solid var(--gray-100);
@@ -31,6 +32,8 @@
         height: 6rem;
         border-radius: 1rem;
       }
+    
+    
       .episodeDetails {
         flex: 1;
         margin-left: 1rem;
@@ -168,5 +171,12 @@
         }
       }
     }
+  }
+}
+
+@media only screen and(max-width:500px) {
+  .latestEpisodes ul{
+    display: flex;
+    flex-direction: column;
   }
 }
