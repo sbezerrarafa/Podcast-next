@@ -23,6 +23,9 @@ yarn start
 
 ```sh
 yarn dev
+yarn server
+
+obs: o yarn server é usado, para api- rodar de forma local
 ```
 ## Note
 
@@ -33,7 +36,7 @@ yarn dev
 👤 **Rafael Bezerra**
 
 
-* Github: [@tecnologiane10](https://github.com/sbezerrarafa)
+* Github: [@sbezerrarafa](https://github.com/sbezerrarafa)
 
 
 ## Show your support
