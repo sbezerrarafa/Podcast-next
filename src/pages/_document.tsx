@@ -11,6 +11,9 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
           <link rel="shortcut icon" href="/favicon.png" type="image/png" />
+         
+          <link rel="manifest" href="/manifest.json" />
+          <link rel="icon" href="/favicon.png"/>
         </Head>
         <body>
           <Main />
