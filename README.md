@@ -1,7 +1,5 @@
 <h1 align="center">Bem Vindo ao Pod. do Rafa 👋</h1>
 
-
-
 ## Prerequisites
 
 - node >=14
